@@ -11,4 +11,8 @@ module.exports = {
     "@typescript-eslint/explicit-member-accessibility": "off",
     "import/prefer-default-export": "off",
   },
+  "plugins": ["jest"],
+  "env": {
+    "jest": true
+  }
 };
