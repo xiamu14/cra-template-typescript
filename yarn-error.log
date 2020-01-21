@@ -1,0 +1,42 @@
+Arguments: 
+  /Users/ben/.nvm/versions/node/v12.4.0/bin/node /Users/ben/.yarn/bin/yarn.js publish --access=public
+
+PATH: 
+  /usr/local/Cellar/pyenv-virtualenv/1.1.3/shims:/Users/ben/.pyenv/shims:/Users/ben/.pyenv/bin:/usr/local/opt/ruby/bin:/Users/ben/.nvm/versions/node/v12.4.0/bin:/Users/ben/.fastlane/bin:/Users/ben/Documents/flutter/bin:/Users/ben/.yarn/bin:/Users/ben/.config/yarn/global/node_modules/.bin:/Users/ben/Downloads/cocos2d-x-3.16/templates:/Users/ben/Downloads:/Users/ben/Downloads/cocos2d-x-3.16/tools/cocos2d-console/bin:/Users/ben/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/share/dotnet
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  12.4.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.npm.taobao.org/-/user/org.couchdb.user:xiamu: [conflict] User xiamu already exists
+      at Request.params.callback [as _callback] (/Users/ben/.yarn/lib/cli.js:66947:18)
+      at Request.self.callback (/Users/ben/.yarn/lib/cli.js:140665:22)
+      at Request.emit (events.js:200:13)
+      at Request.<anonymous> (/Users/ben/.yarn/lib/cli.js:141637:10)
+      at Request.emit (events.js:200:13)
+      at IncomingMessage.<anonymous> (/Users/ben/.yarn/lib/cli.js:141559:12)
+      at Object.onceWrapper (events.js:288:20)
+      at IncomingMessage.emit (events.js:205:15)
+      at endReadableNT (_stream_readable.js:1154:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:9)
+
+npm manifest: 
+  {
+    "name": "@redchili/creat-app-typescript",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "ben14 <544652471@qq.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
