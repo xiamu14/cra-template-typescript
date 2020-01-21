@@ -1,6 +1,6 @@
 {
   "name": "@redchili/cra-template-typescript",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "template.json",
   "author": "ben14 <544652471@qq.com>",
   "license": "MIT"
